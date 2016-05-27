@@ -23,7 +23,7 @@ jQuery( document ).ready(function( $ ) {
         $("#slider-submit").attr("disabled","disabled");
         $(".slider-container").html("<h4 class='strong text-center'>Thank you!.</h4>");
       } else {
-        $(".slider-container > .medium-12.columns").append("<div class='alert callout small'>Please select a number higher than 0.</div>");
+        $(".slider-container > .medium-12.columns").append("<div class='alert'>Please select a number higher than 0.</div>");
       }
     });
 });
