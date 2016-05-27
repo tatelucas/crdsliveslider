@@ -39,9 +39,15 @@ background-color: #d5d5d5;
 color: #333333;
 }
 
+
+  .slider-container {
+        padding-top: 5px;
+  }
+
   .slider-container h4 {
     color: white;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+  }
   .slider-container .text-center {
     text-align: center; }
   .slider-container .slider-0 {
@@ -78,4 +84,9 @@ color: #333333;
       border-radius: 3px; }
   @media only screen and (min-width: 40.063em) {
     .slider-container .button {
-      margin-top: 11px; } }
+      margin-top: 11px;
+    }
+    .slider-container {
+      padding-top: 20px;
+    }
+  }
