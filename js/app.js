@@ -8,7 +8,7 @@ jQuery( document ).ready(function( $ ) {
 
   $('.slider').on('moved.zf.slider', function(){
     var currentcount = $("#slider-value").val();
-    console.log(currentcount);
+    // console.log(currentcount);
     $(".slider-handle").html(currentcount);
   });
 
