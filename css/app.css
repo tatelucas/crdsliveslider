@@ -16,7 +16,8 @@ h1.strong, h2.strong, h3.strong, h4.strong, h5.strong, h6.strong {
 
 .alert {
   color: #e87979;
-  margin-top: -10px;
+  margin-top: -15px;
+  margin-bottom: 5px;
   text-align: center;
   float: left;
   width: 100%;
