@@ -21,7 +21,7 @@ jQuery( document ).ready(function( $ ) {
           "entry.1403910056": $('#slider-value').val()
         });
         $("#slider-submit").attr("disabled","disabled");
-        $(".slider-container").html("<h4 class='strong text-center'>Thank you!.</h4>");
+        $(".slider-container").html("<h4 class='strong text-center'>Thank you!</h4>");
       } else {
         $(".alert").show();
       }
